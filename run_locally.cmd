@@ -1,6 +1,6 @@
 @echo off
 
-set DO_E2E=%1
+set DO_E2E=true
 
 echo:
 echo ####### RESTFUL-BOOKER-PLATFORM #######
