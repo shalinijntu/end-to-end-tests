@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T10:46:35.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7483478700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register to automation practice page",
+        "description": "",
+        "id": "this-feature-tests-the-register-and-login-functionality-of-automation-practice-page;register-to-automation-practice-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1115592500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3578579000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch automation practice page",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.navigateToAutomationPracticeHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4152374400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Signin",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.clickOnSignInLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2821999400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my email and click on create account to register",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.enterEmailAndRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34002500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to Create Account page",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.navigateToCreateAccountPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-27T10:46:54.535Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5551644600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.SetUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Sign in to automation practice page",
+        "description": "",
+        "id": "this-feature-tests-the-register-and-login-functionality-of-automation-practice-page;sign-in-to-automation-practice-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1036191900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3936955600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I launch automation practice page",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.navigateToAutomationPracticeHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4730307400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Signin",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.clickOnSignInLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1797000200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter my email and password and click on Sign in",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.enterEmailAndPasswordForSignin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74993700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see error authentication failed as account doesn\u0027t exist",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.authenticationErrorAccountDoesntExist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "This feature tests the register and login functionality of automation practice page",
+    "description": "",
+    "id": "this-feature-tests-the-register-and-login-functionality-of-automation-practice-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
